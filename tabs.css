@@ -1,0 +1,60 @@
+.tabs {
+    margin: 100px 0 50px 0;
+}
+.tabs__nav {
+}
+.tab__btn {
+    font-family: 'Open Sans';
+    padding: 13px 83px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.tab__btn-active {
+    position: relative;
+    z-index: 10;
+    top: 2px;
+    border: 1px solid #c6cbcd;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 3px solid white;
+}
+.tabs__content {
+    border: 1px solid #c6cbcd;
+}
+.tabs__text-side {
+    display: inline-block;
+    margin: 0 30px 0 98px;
+    max-width: 570px;
+}
+.tabs__heading {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    padding: 47px 0;
+    margin: 0 0 27px 0;
+}
+.tabs__text {
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 21px;
+}
+.tabs__text:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+.tabs__button {
+    margin-top: 27px;
+    display: inline-block;
+    background: #ec7979;
+    color: #fff;
+    min-height: 58px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    padding: 20px 0;
+    min-width: 270px;
+    font-size: 18px;
+}
+.tabs__media-side {
+    display: inline-block;
+}
