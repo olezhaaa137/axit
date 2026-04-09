@@ -17,7 +17,36 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 .wrapper {
+    
+}
+._container {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.title {
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+    padding: 57px 0;
+    margin: 0 0 40px 0;
+}
+.title::after {
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 170px;
+    height: 0;
+    border: 1px solid #ec7979;
+}
+
+.subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #86878b;
+    margin: 0 0 71px 0;
 }
