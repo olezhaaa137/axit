@@ -1,21 +1,17 @@
 .customers {
     padding-bottom: 64px;
 }
-.customers__container {
-}
-._container {
-}
+
+
 .customers__title {
     font-size: 36px;
     text-transform: uppercase;
 }
-.title {
-}
+
 .customers__subtitle {
     margin-bottom: 83px;
 }
-.subtitle {
-}
+
 .customers__comments {
     display: flex;
     gap: 30px;
@@ -53,8 +49,7 @@
     height: 100%;
     object-fit: cover;
 }
-.customers__comment-persinformation {
-}
+
 .customers__comment-FIO {
     font-family: var(--second-family);
     font-weight: 700;
