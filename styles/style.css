@@ -16,8 +16,13 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
+:root {
+  --font-family: "Raleway", sans-serif;
+  --second-family: "Open Sans", sans-serif;
+}
+
 .wrapper {
-    
+    font-family: Raleway, sans-serif;
 }
 ._container {
     max-width: 1200px;
